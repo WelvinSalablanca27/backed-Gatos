@@ -1,3 +1,4 @@
+
 import db from "../firebase.js";
 
 export const registrarGato = async (req, res) => {
@@ -31,3 +32,4 @@ ID: ${docRef.id} | Nombre: ${nombre} | Edad: ${edad} años | Peso: ${peso} kg | 
   }
 };
 
+import db from "../firebase.js";
